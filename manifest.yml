@@ -1,0 +1,10 @@
+---
+applications:
+
+- name: mvapp
+  memory: 512M
+  host: mvapp_random
+  path: target/mvapp.war
+  buildpack: sap_java_buildpack
+  env:
+    destinations: '[{name: "ErpQueryEndpoint", url: "https://sapes4.sapdevcenter.com", username: "", password: ""}]'

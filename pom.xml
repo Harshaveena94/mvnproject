@@ -1,0 +1,25 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	
+	<parent>
+		<groupId>com.sap.cloud.servicesdk.prov</groupId>
+    	<artifactId>projects-parent</artifactId>
+		<version>1.10.2</version>
+	</parent>
+	
+	<groupId>DHV</groupId>
+	<artifactId>mvapp</artifactId>
+	<version>1.1</version>
+	<packaging>war</packaging>
+	
+	<properties>
+	    <!-- Name of the package containing the OData service provisioning code  -->
+	   <packageName>war</packageName>
+	</properties>
+
+	<name>Project for OData V4 service development</name>
+	<build>
+		<finalName>mvapp</finalName>
+	</build>
+</project>
